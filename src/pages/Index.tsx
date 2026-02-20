@@ -1,12 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import RealityHook from "@/components/RealityHook";
+import WhatItIs from "@/components/WhatItIs";
+import Evidence from "@/components/Evidence";
+import DemoSnapshot from "@/components/DemoSnapshot";
+import Recognition from "@/components/Recognition";
+import VisionClose from "@/components/VisionClose";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="relative min-h-screen noise-bg">
+      <Navbar />
+      <HeroSection />
+      <RealityHook />
+      <WhatItIs />
+      <Evidence />
+      <DemoSnapshot />
+      <Recognition />
+      <VisionClose />
     </div>
   );
 };
