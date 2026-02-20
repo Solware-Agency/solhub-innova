@@ -12,7 +12,7 @@ const centros = [
 		href: 'https://sbqepjsxnqtldyvlntqk.supabase.co/storage/v1/object/public/Logos/SALUD%20PARA%20TODOS%20(1).svg',
 	},
   {
-    href: './public/logo-cendilab.png'
+    href: 'https://sbqepjsxnqtldyvlntqk.supabase.co/storage/v1/object/public/Logos/logo-cendilab.png'
   }
 ]
 
