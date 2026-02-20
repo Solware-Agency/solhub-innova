@@ -6,10 +6,11 @@ import Evidence from "@/components/Evidence";
 import DemoSnapshot from "@/components/DemoSnapshot";
 import Recognition from "@/components/Recognition";
 import VisionClose from "@/components/VisionClose";
+import CentrosSalud from "@/components/CentrosSalud";
 
 const Index = () => {
   return (
-    <div className="relative min-h-screen noise-bg">
+    <div className="relative min-h-screen noise-bg bg-blue-950">
       <Navbar />
       <HeroSection />
       <RealityHook />
@@ -17,6 +18,7 @@ const Index = () => {
       <Evidence />
       <DemoSnapshot />
       <Recognition />
+      <CentrosSalud />
       <VisionClose />
     </div>
   );
