@@ -1,4 +1,4 @@
-import { Trophy } from "lucide-react";
+import { Award, Trophy } from "lucide-react";
 
 const Recognition = () => {
   return (
@@ -37,6 +37,44 @@ const Recognition = () => {
               </div>
               <div className="rounded-xl border border-primary/20 bg-primary/5 p-4 text-center">
                 <p className="text-3xl font-extrabold text-primary">2025</p>
+                <p className="mt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  Año
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="glass-card-strong mt-6 p-8 md:p-10 glow-blue">
+            <div className="flex items-start gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
+                <Award className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-foreground">
+                  EmprendeTECH IESA 2026
+                </h3>
+                <p className="mt-1 text-sm font-medium text-primary">
+                  Instituto de Estudios Superiores de Administración
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  Reconocimiento por participación en el programa EmprendeTECH
+                  del IESA, impulsando el emprendimiento y la innovación
+                  tecnológica.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 grid grid-cols-2 gap-4">
+              <div className="rounded-xl border border-primary/20 bg-primary/5 p-4 text-center">
+                <p className="text-3xl font-extrabold text-foreground">
+                  Participación
+                </p>
+                <p className="mt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                  Reconocimiento
+                </p>
+              </div>
+              <div className="rounded-xl border border-primary/20 bg-primary/5 p-4 text-center">
+                <p className="text-3xl font-extrabold text-primary">2026</p>
                 <p className="mt-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
                   Año
                 </p>
