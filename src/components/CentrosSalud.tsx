@@ -9,7 +9,7 @@ const centros = [
 		href: 'https://sbqepjsxnqtldyvlntqk.supabase.co/storage/v1/object/public/Logos/logo_marihorgen.svg',
 	},
 	{
-		href: 'https://sbqepjsxnqtldyvlntqk.supabase.co/storage/v1/object/public/Logos/SALUD%20PARA%20TODOS%20(1).svg',
+		href: '/logo-spt.png',
 	},
   {
     href: 'https://sbqepjsxnqtldyvlntqk.supabase.co/storage/v1/object/public/Logos/logo-cendilab.png'
@@ -25,7 +25,7 @@ function CentrosSalud() {
 				</h2>
 
 				<div className="mx-auto mt-12 max-w-6xl">
-					<InfiniteMovingCards items={centros} direction="right" speed="fast" />
+					<InfiniteMovingCards items={centros} direction="right" speed="normal" />
 				</div>
 			</div>
 		</section>
